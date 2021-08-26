@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StudentPortal</string>
+    <string name="tab_text_1">Register</string>
+    <string name="tab_text_2">Courses</string>
+    <string name="tab_text_3">Clearance</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

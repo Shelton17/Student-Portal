@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".ClearanceFragment">
+
+    <EditText
+        android:id="@+id/IDNO"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="399dp"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textColorHint="@color/colorPrimaryWhite"
+        android:ems="10"
+        android:hint="Enter ID number"
+        android:inputType="textPersonName"
+        android:layout_marginRight="138dp"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/verdict"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textColorHint="@color/colorPrimaryWhite"
+        android:layout_width="197dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="189dp"
+        android:layout_marginRight="110dp"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:id="@+id/paid"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="113dp"
+        android:layout_marginBottom="268dp"
+        android:ems="10"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textColorHint="@color/colorPrimaryWhite"
+        android:hint="Enter amount paid"
+        android:inputType="textPersonName"
+        android:layout_marginRight="113dp"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/expected"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textColorHint="@color/colorPrimaryWhite"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="333dp"
+        android:text="Amount expected: Ksh.125,000"
+        android:textSize="18sp"
+        android:layout_marginRight="95dp"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/login_button"
+        android:text="submit"
+        android:layout_marginRight="75dp"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:background="@drawable/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="223dp"
+        android:layout_marginBottom="112dp"
+        android:text="calculate"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="223dp" />
+
+</RelativeLayout>

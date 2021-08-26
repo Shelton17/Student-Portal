@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "409298788151",
+    "firebase_url": "https://studentportal-2823d.firebaseio.com",
+    "project_id": "studentportal-2823d",
+    "storage_bucket": "studentportal-2823d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409298788151:android:37d1c495216a3bb1f4c4b2",
+        "android_client_info": {
+          "package_name": "com.example.studentportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409298788151-7cuj4t98o9062naj3o5r8ijind88tepq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.studentportal",
+            "certificate_hash": "a10c3e1c8bf2cade603939dc2a93a1f4c8bbfef1"
+          }
+        },
+        {
+          "client_id": "409298788151-ogftmuk2od446qjkv98spdru5c9nmd5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVpQYk3YyJNg1K82DQ7MVTe47qDqoLQUQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409298788151-ogftmuk2od446qjkv98spdru5c9nmd5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

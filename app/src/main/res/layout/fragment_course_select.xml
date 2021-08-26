@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseSelectFragment"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/showCourses"
+        android:layout_width="144dp"
+        android:layout_height="206dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="125dp"
+        android:text=" SELECTED COURSES"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textColorHint="@color/colorPrimaryWhite"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="31dp" />
+
+    <CheckBox
+        android:id="@+id/apt3040"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="223dp"
+        android:layout_marginBottom="367dp"
+        android:text="FRN 4000"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textColorHint="@color/colorPrimaryWhite"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="223dp" />
+
+    <CheckBox
+        android:id="@+id/apt3050"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="322dp"
+        android:text="APT 2030"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textColorHint="@color/colorPrimaryWhite"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="221dp" />
+
+    <CheckBox
+        android:id="@+id/apt3060"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="275dp"
+        android:text="DST 4010"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textColorHint="@color/colorPrimaryWhite"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="222dp" />
+
+    <CheckBox
+        android:id="@+id/apt3080"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="231dp"
+        android:text="APT 3080"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textColorHint="@color/colorPrimaryWhite"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="221dp" />
+
+    <CheckBox
+        android:id="@+id/ist3040"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="187dp"
+        android:text="ACT 1010"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textColorHint="@color/colorPrimaryWhite"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="222dp" />
+
+    <CheckBox
+        android:id="@+id/ist3050"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="221dp"
+        android:layout_marginBottom="147dp"
+        android:text="ANM 1060"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textColorHint="@color/colorPrimaryWhite"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="221dp" />
+
+    <CheckBox
+        android:id="@+id/ist3060"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="104dp"
+        android:text="PSY 2105"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textColorHint="@color/colorPrimaryWhite"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="222dp" />
+
+    <TextView
+        android:id="@+id/courseInstructions"
+        android:layout_width="234dp"
+        android:layout_height="52dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="413dp"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textColorHint="@color/colorPrimaryWhite"
+        android:text="Please select a maximum of 5 courses:"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="106dp" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="39dp"
+        android:text="save"
+        android:background="@drawable/login_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="61dp" />
+
+    <Button
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="234dp"
+        android:layout_marginBottom="39dp"
+        android:text="Show"
+        android:background="@drawable/register_button"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="234dp" />
+
+    <EditText
+        android:id="@+id/idNumber"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="357dp"
+        android:ems="10"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textColorHint="@color/colorPrimaryWhite"
+        android:hint="Enter ID number"
+        android:inputType="textPersonName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp" />
+
+</RelativeLayout>
